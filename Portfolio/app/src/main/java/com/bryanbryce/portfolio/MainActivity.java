@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    
     public void spotifyStreamerTapped(View view) {
         Toast.makeText(this, "Spotify Streamer", Toast.LENGTH_SHORT).show();
     }
