@@ -13,28 +13,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    
     public void spotifyStreamerTapped(View view) {
-        Toast.makeText(this, "Spotify Streamer", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.spotify_label, Toast.LENGTH_SHORT).show();
     }
 
     public void footballScoresTapped(View view) {
-        Toast.makeText(this, "Football Scores", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.football_label, Toast.LENGTH_SHORT).show();
     }
 
     public void libraryTapped(View view) {
-        Toast.makeText(this, "Library App", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.library_label, Toast.LENGTH_SHORT).show();
     }
 
     public void buildItBiggerTapped(View view) {
-        Toast.makeText(this, "Build it Bigger", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.build_it_bigger_label, Toast.LENGTH_SHORT).show();
     }
 
     public void xyzReaderTapped(View view) {
-        Toast.makeText(this, "XYZ Reader", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.xyz_reader_label, Toast.LENGTH_SHORT).show();
     }
 
     public void capstoneTapped(View view) {
-        Toast.makeText(this, "Capstone", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.capstone_label, Toast.LENGTH_SHORT).show();
     }
 }

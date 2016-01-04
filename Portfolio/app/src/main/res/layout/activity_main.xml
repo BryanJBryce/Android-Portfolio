@@ -25,7 +25,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Spotify Streamer"
+            android:text="@string/spotify_label"
             android:id="@+id/button"
             android:layout_gravity="center_horizontal"
             android:background="#455A64"
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Football Scores App"
+            android:text="@string/football_label"
             android:id="@+id/button2"
             android:layout_gravity="center_horizontal"
             android:background="#455A64"
@@ -52,7 +52,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Library App"
+            android:text="@string/library_label"
             android:id="@+id/button3"
             android:layout_gravity="center_horizontal"
             android:background="#455A64"
@@ -65,7 +65,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Build It Bigger"
+            android:text="@string/build_it_bigger_label"
             android:id="@+id/button4"
             android:layout_gravity="center_horizontal"
             android:background="#455A64"
@@ -78,7 +78,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="XYZ Reader"
+            android:text="@string/xyz_reader_label"
             android:id="@+id/button5"
             android:layout_gravity="center_horizontal"
             android:background="#455A64"
@@ -91,7 +91,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Capstone"
+            android:text="@string/capstone_label"
             android:id="@+id/button6"
             android:layout_gravity="center_horizontal"
             android:background="#263238"
